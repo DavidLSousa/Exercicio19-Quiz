@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>Quiz Exercicio 19</title>
+</head>
+<body class="bg-light text-monospace">
+
+  <header class="container bg-dark text-white d-flex align-items-center justify-content-center" style="height: 10vh;">
+    <div class="nav-item p-4">
+      <h1 class="text-center" style="font-family: 'Comic Sans MS';">Quiz Exercício</h1>
+    </div>
+  </header>
+
+  <section class="container bg-secondary text-white">
+    <div class="d-flex flex-column" style="min-height: 90vh;">
+      <h2 class="ml-5">Você consegue responder a essas perguntas sobre os Livros de Harry Potter?</h2>
+
+      <div>
+        <form>
+          <div class="mt-3 mb-2">
+            <!-- Frist question -->
+            <div class="ml-5 mb-4">
+              <p class="lead">1. Qual é o nome do feitiço que faz com que o alvo escute apenas zumbidos?</p>
+              <div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion1" value="A" checked>
+                    Abafflato
+                  </label>
+                </div>
+        
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion1" value="B">
+                    Abaffiato
+                  </label>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Second question -->
+            <div class="ml-5 mb-4">
+              <p class="lead">2.  Qual dos membros da família Weasley é o mais velho?</p>
+              <div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion2" value="A" checked>
+                    Carlinhos
+                  </label>
+                </div>
+        
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion2" value="B">
+                    Gui
+                  </label>
+                </div>
+              </div>
+            </div>
+    
+            <!-- Third question -->
+            <div class="ml-5 mb-4">
+              <p class="lead">3. Para nascer um Basilisco, qual animal deve chocar o ovo de uma galinha?</p>
+              <div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion3" value="A" checked>
+                    Uma cobra
+                  </label>
+                </div>
+        
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion3" value="B">
+                    Um sapo
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fourth question -->
+            <div class="ml-5 mb-4">
+              <p class="lead">4. Qual destas pessoas Belatriz Lestrange NÃO matou?</p>
+              <div>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion4" value="A" checked>
+                    Ninfadora Tonks
+                  </label>
+                </div>
+        
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" name="inputQuestion4" value="B">
+                    Remo Lupim
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="d-flex justify-content-center p-2">
+              <button type="submit" class="btn btn-light">Finish</button>
+            </div>
+          </div>
+        </form>
+
+        <!-- Alterar de d-none para d-flex quando o Score for mostrado -->
+        <div class="d-none align-items-center justify-content-center mb-2">
+          <div class="badge badge-primary p-3" style="font-size: 2rem;">
+            <div class="outputScore"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script src="app.js"></script>
+</body>
+</html>
+
+<!-- 
+Seu desafio é desenvolver uma versão do quiz que:
+  - Aborda um tema diferente (não pode ser de filmes);
+  - Tem um tema de cores diferente do que foi apresentado na aula;
+  - Exibe na tela a pontuação que o usuário fez. Não há certo ou errado, apenas faça. Essa exibição 
+  de pontos é uma das implementações que faremos na próxima aula =D
+
+Independente se você já fez o quiz dos filmes enquanto acompanhava a aula, tente fazer esse exercício 
+sem rever partes da aula.
+É importante que a sua versão do quiz seja feita apenas com o conteúdo que vimos até aqui.
+Depois de fazer o que foi pedido acima, crie um repositório no GitHub para a sua aplicação e abra uma 
+issue no repositório do curso com:
+    - O link da sua versão do quiz;
+    - Quais foram as suas maiores dúvidas ou dificuldades durante a execução desse exercício;
+    - Quais foram as suas menores dificuldades durante a execução desse exercício.
+
+Link do repositório do curso: https://github.com/roger-melo-treinamentos/curso-de-js-roger-melo/issues
+
+Ps: se você não conseguiu fazer tudo o que foi pedido acima, abra a issue mesmo assim =)
+ -->
